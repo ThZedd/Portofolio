@@ -151,3 +151,20 @@ span{
     transition: 1s ease;   
 }
 
+#emailBtn{
+    color: hsl(209, 100%, 33%);
+}
+
+#emailBtn:hover,
+#emailBtn:active{
+    color:hsl(209, 100%, 46%);
+}
+
+#linkedInBtn{
+    color: hsl(209, 100%, 33%);
+}
+
+#linkedInBtn:hover,
+#linkedInBtn:active{
+    color:hsl(209, 100%, 46%);
+}
