@@ -73,6 +73,10 @@ section{
     background-color: black;
 }
 
+.home .home-img img{
+    border-radius: 300px;
+}
+
 .home .home-content h1{
     font-size: 6rem;
     font-weight: 700;
