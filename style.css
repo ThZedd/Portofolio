@@ -174,8 +174,8 @@ span{
 }
 
 .date {
-    font-size: 1.8rem; /* Fica um pouco mais pequeno que o texto normal */
-    color: hsl(209, 87%, 75%); /* Um tom de cinzento/prateado */
+    font-size: 1.8rem; 
+    color: hsl(209, 87%, 75%); 
     font-style: italic; 
-
+    line-height: normal;
 }
