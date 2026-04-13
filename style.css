@@ -172,3 +172,10 @@ span{
 #linkedInBtn:active{
     color:hsl(209, 100%, 46%);
 }
+
+.date {
+    font-size: 1.8rem; /* Fica um pouco mais pequeno que o texto normal */
+    color: hsl(209, 87%, 75%); /* Um tom de cinzento/prateado */
+    font-style: italic; 
+
+}
