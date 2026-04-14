@@ -179,3 +179,48 @@ span{
     font-style: italic; 
     line-height: normal;
 }
+
+.projects {
+    display: grid;
+    /* Isto força exatamente 2 colunas. Nem mais, nem menos. */
+    grid-template-columns: 1fr 1fr; 
+    gap: 10rem; /* Espaço entre os projetos */
+    background-color: black;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    padding-top: 30rem;
+}
+
+.projects h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.projects a span {
+    color: hsl(209, 100%, 33%);
+    transition: color 0.3s ease;
+}
+
+.projects a span:hover {
+    color: hsl(209, 100%, 47%);
+}
+
+.projects h3 {
+    font-size: 3.35rem;
+    color: hsl(0, 0%, 69%);
+    font-weight: 700;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.projects p {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    margin-right: 0; /* Removemos a margem direita para não esmagar o texto no Grid */
+}
+
+.projects .dark-league-android{
+    margin-top: 5rem;
+}
